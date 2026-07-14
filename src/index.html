@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Menu</title>
+
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body
+    class="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 flex items-start justify-start p-10 overflow-hidden">
+
+    <!-- Blur -->
+    <div class="fixed top-[-150px] left-[-150px] w-[350px] h-[350px] rounded-full bg-cyan-500/20 blur-[140px]"></div>
+
+    <div class="fixed bottom-[-150px] right-[-150px] w-[350px] h-[350px] rounded-full bg-violet-500/20 blur-[150px]">
+    </div>
+
+    <!-- Menu -->
+
+    <div class="relative w-24">
+
+        <div
+            class="w-20 h-20 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-xl flex justify-center items-center shadow-2xl hover:bg-white/20 duration-300">
+
+            <img src="img/icons8-menu-94.png"
+                class="w-12 cursor-pointer duration-500 hover:scale-110 active:scale-90"
+                id="img">
+
+        </div>
+
+        <!-- Sidebar -->
+
+        <div
+            class="bar absolute top-24 -left-[500%] w-[430%] rounded-[28px] bg-white/10 backdrop-blur-3xl border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,.4)] overflow-hidden duration-500">
+
+            <!-- Header -->
+
+            <div
+                class="w-full flex items-center border-b border-white/10 px-6 py-7 hover:bg-white/5 duration-300 cursor-pointer">
+
+                <figure class="w-[15%] flex justify-center">
+
+                    <img src="img/icons8-home-94.png"
+                        class="w-12">
+
+                </figure>
+
+                <h3
+                    class="w-[85%] text-3xl font-bold tracking-wide capitalize text-slate-100 pl-5">
+
+                    Dashboard
+
+                </h3>
+
+            </div><!-- Users -->
+
+            <div
+                class="list1 w-full flex flex-wrap border-b border-white/10 py-4 transition-all duration-300 hover:bg-white/5">
+
+                <div
+                    class="boxclick transition-all duration-300 hover:translate-x-2 hover:bg-white/5 w-full flex flex-wrap items-center cursor-pointer px-6 py-3 group">
+
+                    <figure class="w-[15%] flex justify-center items-center">
+
+                        <img src="img/icons8-group-94.png"
+                            class="w-11 h-11 object-contain duration-300 group-hover:scale-110">
+
+                    </figure>
+
+
+                    <h3
+                        class="w-[70%] text-2xl font-semibold capitalize text-white pl-5 flex items-center">
+
+                        users man
+
+                    </h3>
+
+
+                    <span
+                        class="w-[15%] flex justify-center items-center">
+
+                        <img src="img/icons8-up-arrow-26.png"
+                            class="arrow w-8 h-8 bg-white rounded-xl p-1.5 duration-500">
+
+                    </span>
+
+
+                </div>
+
+
+                <ul
+                    class="para transition-all duration-500 ease-in-out overflow-hidden h-auto w-full flex flex-wrap bg-black/20 backdrop-blur-xl text-white pl-24 py-2">
+
+                    <li
+                        class="w-full text-xl capitalize font-medium py-2 cursor-pointer hover:text-cyan-400 duration-300">
+                        all user
+                    </li>
+
+                    <li
+                        class="w-full text-xl capitalize font-medium py-2 cursor-pointer hover:text-cyan-400 duration-300">
+                        add user
+                    </li>
+
+                    <li
+                        class="w-full text-xl capitalize font-medium py-2 cursor-pointer hover:text-cyan-400 duration-300">
+                        direct
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
+
+
+            <!-- Product -->
+
+
+            <div
+                class="list1 w-full flex flex-wrap border-b border-white/10 py-4 transition-all duration-300 hover:bg-white/5">
+
+
+                <div
+                    class="boxclick transition-all duration-300 hover:translate-x-2 hover:bg-white/5 w-full flex flex-wrap items-center cursor-pointer px-6 py-3 group">
+
+
+                    <figure class="w-[15%] flex justify-center items-center">
+
+                        <img src="img/icons8-copy-to-folder-94.png"
+                            class="w-11 h-11 object-contain duration-300 group-hover:scale-110">
+
+                    </figure>
+
+
+                    <h3
+                        class="w-[70%] text-2xl font-semibold capitalize text-white pl-5 flex items-center">
+
+                        product
+
+                    </h3>
+
+
+                    <span
+                        class="w-[15%] flex justify-center items-center">
+
+                        <img src="img/icons8-up-arrow-26.png"
+                            class="arrow w-8 h-8 bg-white rounded-xl p-1.5 duration-500">
+
+                    </span>
+
+
+                </div>
+
+
+                <ul
+                    class="para transition-all duration-500 ease-in-out overflow-hidden h-auto w-full flex flex-wrap bg-black/20 backdrop-blur-xl text-white pl-24 py-2">
+
+
+                    <li
+                        class="w-full text-xl capitalize font-medium py-2 cursor-pointer hover:text-cyan-400 duration-300">
+                        all product
+                    </li>
+
+
+                    <li
+                        class="w-full text-xl capitalize font-medium py-2 cursor-pointer hover:text-cyan-400 duration-300">
+                        add product
+                    </li>
+
+
+                    <li
+                        class="w-full text-xl capitalize font-medium py-2 cursor-pointer hover:text-cyan-400 duration-300">
+                        collections
+                    </li>
+
+
+                </ul>
+
+
+            </div><!-- Buying -->
+
+            <div
+                class="list1 w-full flex flex-wrap border-b border-white/10 py-4 transition-all duration-300 hover:bg-white/5">
+
+                <div
+                    class="boxclick transition-all duration-300 hover:translate-x-2 hover:bg-white/5 w-full flex flex-wrap items-center cursor-pointer px-6 py-3 group">
+
+                    <figure class="w-[15%] flex justify-center items-center">
+
+                        <img src="img/icons8-buying-94.png"
+                            class="w-11 h-11 object-contain duration-300 group-hover:scale-110">
+
+                    </figure>
+
+
+                    <h3
+                        class="w-[70%] text-2xl font-semibold capitalize text-white pl-5 flex items-center">
+
+                        buying
+
+                    </h3>
+
+
+                    <span class="w-[15%] flex justify-center items-center">
+
+                        <img src="img/icons8-up-arrow-26.png"
+                            class="arrow w-8 h-8 bg-white rounded-xl p-1.5 duration-500">
+
+                    </span>
+
+
+                </div>
+
+
+                <ul
+                    class="para transition-all duration-500 ease-in-out overflow-hidden h-auto w-full flex flex-wrap bg-black/20 backdrop-blur-xl text-white pl-24 py-2">
+
+
+                    <li
+                        class="w-full text-xl capitalize font-medium py-2 cursor-pointer hover:text-cyan-400 duration-300">
+                        buy phone
+                    </li>
+
+
+                    <li
+                        class="w-full text-xl capitalize font-medium py-2 cursor-pointer hover:text-cyan-400 duration-300">
+                        sell phone
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+
+
+
+
+            <!-- Setting -->
+
+
+            <div
+                class="list1 w-full border-b border-white/10 py-4 transition-all duration-300 hover:bg-white/5">
+
+
+                <div
+                    class="boxclick transition-all duration-300 hover:translate-x-2 hover:bg-white/5 w-full flex items-center cursor-pointer px-6 py-3 group">
+
+
+                    <figure class="w-[15%] flex justify-center">
+
+                        <img src="img/icons8-settings-94.png"
+                            class="w-11 h-11 duration-300 group-hover:rotate-90">
+
+                    </figure>
+
+
+                    <h3
+                        class="w-[85%] text-2xl font-semibold capitalize text-white pl-5">
+
+                        setting
+
+                    </h3>
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+            <!-- Exit -->
+
+
+            <div
+                class="list1 w-full py-4 transition-all duration-300 hover:bg-red-500/10">
+
+
+                <div
+                    class="boxclick transition-all duration-300 hover:translate-x-2 hover:bg-white/5 w-full flex items-center cursor-pointer px-6 py-3 group">
+
+
+                    <figure class="w-[15%] flex justify-center">
+
+                        <img src="img/icons8-closed-sign-94.png"
+                            class="w-11 h-11 duration-300 group-hover:scale-110">
+
+                    </figure>
+
+
+                    <h3
+                        class="w-[85%] text-2xl font-semibold capitalize text-red-400 pl-5">
+
+                        exit
+
+                    </h3>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+<script src="app.js"></script>
+
+
+</body>
+
+</html>
